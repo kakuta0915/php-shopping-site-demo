@@ -1,0 +1,14 @@
+/* モバイルカート表示制御 */
+#mobileCart {
+  display: none;
+}
+
+/* カートバッジ */
+.cart-badge span[data-count]:not(:empty) {
+  margin-left: auto;
+  background: var(--clr-accent);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 2px 7px;
+  border-radius: 10px;
+}
