@@ -184,8 +184,7 @@ $pageTitle = ($pageTitle ?? 'ページ') . '|' . APP_NAME;
 
   <main class="page-body">
     コンテンツ
-  </main>
-  <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/header.js"></script>
 </body>
 
 </html>

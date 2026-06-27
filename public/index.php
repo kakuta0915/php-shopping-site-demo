@@ -2,7 +2,9 @@
 require_once dirname(__DIR__) . '/config/app.php';
 require_once dirname(__DIR__) . '/src/helpers.php';
 Session::start();
-require_once dirname(__DIR__) . '/templates/header.php'; ?>
+?>
+
+<?php require_once dirname(__DIR__) . '/templates/header.php'; ?>
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -16,6 +18,8 @@ require_once dirname(__DIR__) . '/templates/header.php'; ?>
 
 <body>
   ああ
+
+  <?php require_once dirname(__DIR__) . '/templates/footer.php'; ?>
 
 </body>
 
