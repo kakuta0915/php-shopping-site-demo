@@ -8,6 +8,7 @@ class Auth
   // ログイン状態チェック
   public static function check(): bool
   {
+    // セッションに user_id があるか？
     return Session::has('user_id');
   }
 
