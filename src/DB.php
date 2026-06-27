@@ -43,7 +43,7 @@ class DB
   }
 
   // SELECT (スカラー値)
-  public static function fetchColum(string $sql, array $params = []): mixed
+  public static function fetchColumn(string $sql, array $params = []): mixed
   {
     $stmt = self::getInstance()->prepare($sql);
     $stmt->execute($params);
